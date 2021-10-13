@@ -21,11 +21,10 @@ jobs:
 
       - name: install dependencies
         run: npm ci
-      
+
       - name: build
         run: npm run build
 
       - uses: JS-DevTools/npm-publish@v1
         with:
-          token: ${{ secrets.CR_PAT }}
-          registry: https://npm.pkg.github.com
+          token: ${{ secrets.NPM_TOKEN }}

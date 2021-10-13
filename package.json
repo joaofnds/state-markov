@@ -1,5 +1,5 @@
 {
-  "name": "@joaofnds/state-markov",
+  "name": "state-markov",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -17,8 +17,5 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:joaofnds/state-markov.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
