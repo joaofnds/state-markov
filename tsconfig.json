@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
-    "module": "commonjs",                     /* Specify what module code is generated. */
-    "outDir": "./dist",                       /* Specify an output folder for all emitted files. */
-    "skipLibCheck": true,                     /* Skip type checking all .d.ts files. */
-    "strict": true,                           /* Enable all strict type-checking options. */
-    "target": "es6",                          /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-  }
+    "declaration": true,
+    "baseUrl": "src",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
