@@ -1,5 +1,5 @@
 {
-  "name": "state-markov",
+  "name": "@joaofnds/state-markov",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,10 +8,17 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["state", "machine", "markov", "chain"],
   "author": "joaofnds <joaofnds@joaofnds.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joaofnds/state-markov.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
