@@ -1,6 +1,6 @@
 {
   "name": "state-markov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple state machine that transitions to a new state based on weights",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
