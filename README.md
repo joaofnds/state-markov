@@ -9,3 +9,30 @@
 # state-markov
 
 a simple state machine that transitions to a new state based on weights
+
+# example
+```typescript
+import { StateMarkov } from "state-markov";
+
+const spec = {
+  one: {
+    one: 0.1,
+    two: 0.6,
+    three: 0.3,
+  },
+  two: {
+    one: 0.5,
+    three: 0.5,
+  },
+  three: {
+    one: 1,
+  },
+};
+
+const sm = new StateMarkov(spec);
+
+for (let i = 0; i < 10; i++) {
+  console.log(sm.currentState.name); //=> one, three, one, two, three, one, one, three, one, two
+  sm.transition();
+}
+```
