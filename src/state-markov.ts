@@ -1,5 +1,5 @@
-import { assertSumOfWeightsIs1, UndefinedStateError } from "errors";
-import { State } from "state";
+import { assertSumOfWeightsIs1, UndefinedStateError } from "./errors";
+import { State } from "./state";
 
 export class StateMarkov {
   states: State[];

@@ -1,5 +1,5 @@
-import { assertSameLength, assertSumOfWeightsIs1 } from "errors";
-import { weightedRandomIndex } from "random";
+import { assertSameLength, assertSumOfWeightsIs1 } from "./errors";
+import { weightedRandomIndex } from "./random";
 
 export class State {
   private neighbors: State[] = [];
